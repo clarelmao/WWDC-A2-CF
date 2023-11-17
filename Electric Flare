@@ -1,0 +1,29 @@
+use_bpm 128
+
+live_loop :cool do
+  sample :elec_soft_kick
+  sleep 0.75
+  sample :elec_filt_snare
+  sleep 0.75
+  sample :elec_soft_kick
+  sleep 0.75
+  sample :elec_filt_snare
+  sleep 0.75
+  sample :elec_soft_kick
+  sleep 0.5
+  sample :elec_filt_snare
+  sleep 0.5
+  sample :elec_soft_kick
+  sleep 0.5
+  sample :elec_filt_snare
+  sleep 0.5
+  sample :elec_soft_kick
+  sleep 0.25
+  sample :elec_filt_snare
+  sleep 0.25
+  sample :elec_soft_kick
+  sleep 0.25
+  sample :elec_filt_snare
+  sleep 0.25
+  sleep 1000
+end
