@@ -1,0 +1,33 @@
+use_bpm 128
+
+define :melody do
+  use_synth :piano
+  sleep 8
+  play :C4
+  sleep 0.5
+  play :E4
+  sleep 0.5
+  play :G4
+  sleep 0.5
+  play :C5
+  sleep 0.5
+  
+  sleep 1
+  
+  play :G4
+  sleep 0.5
+  play :E4
+  sleep 0.5
+  play :C4
+  sleep 0.5
+  play :B3
+  sleep 0.5
+  
+  sleep 1
+end
+
+live_loop :melodist do
+  4.times do
+    melody
+  end
+end
