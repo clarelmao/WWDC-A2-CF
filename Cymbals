@@ -1,0 +1,15 @@
+use_bpm 128
+
+live_loop :cymbal do
+  sample :hat_snap
+  sleep 1
+  sample :hat_zan
+  sleep 1
+  sample :hat_snap
+  sleep 1
+  sample :hat_snap
+  sleep 1
+  sample :hat_zan
+  sleep 1
+  
+end
